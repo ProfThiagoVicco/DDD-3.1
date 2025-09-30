@@ -38,7 +38,6 @@ Preencha a tabela justificando cada tipo (identidade vs. imutabilidade).
 
 ## 🏗️ 3) Agregados e Aggregate Root (AR)
 **Agregado Principal:** **[Agregado Principal]**  
-**AR:** **[Nome da AR]**  
 **Conteúdo interno do agregado (apenas o necessário para consistência local):**  
 - **[Entidade interna/VO]**
 - **[Entidade interna/VO]**
