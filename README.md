@@ -10,7 +10,7 @@
 2. Liste 3–7 **invariantes** que devem estar corretas no **commit**.
 3. Escolha 1–2 **Agregados principais** (comece por **[Agregado Principal]**).
 4. Desenhe a **máquina de estados** e os **eventos** que surgem das transições.
-5. Defina o **Repositório** da AR e como lidará com **consistência** entre agregados.
+5. Defina o **Repositório**
 
 ---
 
