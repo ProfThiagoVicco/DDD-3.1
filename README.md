@@ -1,4 +1,4 @@
-# 📚 Trabalho — Design Tático no DDD (Template para qualquer domínio)
+# 📚 Trabalho — Design Tático no DDD
 
 > **Como usar:** copie este arquivo e substitua os **[colchetes]** com informações do **seu domínio** (e-commerce, marketplace, logística, educação, fintech, games, etc.).
 > O objetivo é praticar Entidades, Value Objects, Agregados/AR, Repositórios e Eventos de Domínio — com foco em **invariantes** e **domínio rico**.
@@ -6,8 +6,8 @@
 ---
 
 ## 🚀 Quick start (5 passos)
-1. Escolha um **domínio** que você conheça (ex.: **[Seu Domínio]**).
-2. Liste 3–7 **invariantes** que devem estar corretas no **commit**.
+1. Use o dominio que estavam utilizando nas aulas anteriores!!
+2. Liste 3–7 **invariantes**
 3. Escolha 1–2 **Agregados principais** (comece por **[Agregado Principal]**).
 4. Desenhe a **máquina de estados** e os **eventos** que surgem das transições.
 5. Defina o **Repositório**
@@ -15,8 +15,6 @@
 ---
 
 ## 🩺 1) Sobre o Domínio Escolhido
-**Nome do domínio:** **[Seu Domínio]**  
-**Objetivo do sistema:** **[Frase curta que explica a proposta de valor]**  
 **Principais atores:** **[Lista: Cliente, Vendedor, Motorista, Professor, etc.]**  
 **Contextos (opcional):** **[Contextos/Bounded Contexts propostos]**
 
@@ -29,8 +27,6 @@ Preencha a tabela justificando cada tipo (identidade vs. imutabilidade).
 |---|---|---|
 | **[Elemento A]** | [Entidade/VO] | [Justificativa] |
 | **[Elemento B]** | [Entidade/VO] | [Justificativa] |
-| **[Elemento C]** | [Entidade/VO] | [Justificativa] |
-| **[Elemento D]** | [Entidade/VO] | [Justificativa] |
 
 > Dica: Promova tipos semânticos: `Email`, `CPF/CNPJ`, `Money`, `IntervaloDeTempo`, `Endereco`, `Percentual`, `Quantidade`, etc. **VOs devem ser imutáveis** e com **igualdade por valor**.
 
@@ -81,7 +77,6 @@ public interface I[Agregado]Repository
 }
 ```
 
-
 ---
 
 ## 📣 6) Eventos de Domínio
@@ -129,10 +124,3 @@ classDiagram
 ## ✅ Checklist de Aceitação
 - [ ] **VOs imutáveis** e com **igualdade por valor** (nada de “string de CPF/Email”).
 - [ ] **Domínio rico**: operações do negócio como métodos (evitar `set` aberto).
-
-
-## 📤 Entrega
-
-- **Inclua**: link/imagem do **diagrama** + todas as seções acima preenchidas.
----
-
