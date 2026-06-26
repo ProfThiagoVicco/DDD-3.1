@@ -46,10 +46,6 @@ Preencha a tabela justificando cada tipo (identidade vs. imutabilidade).
 - **[OutroAgregadoId]** (não conter dentro do agregado)
 - **[OutroAgregadoId]**
 
-**Boundary — Por que cada item está dentro/fora?**  
-- **Dentro porque [precisa de consistência transacional por causa da invariante X]**  
-- **Fora porque [pode esperar/eventual; pertence a outro BC; só precisa de referência por ID]**
-
 ---
 
 ## 🧭 4) Invariantes e Máquina de Estados
@@ -132,7 +128,6 @@ classDiagram
 
 ## ✅ Checklist de Aceitação
 - [ ] **VOs imutáveis** e com **igualdade por valor** (nada de “string de CPF/Email”).
-- [ ] **Boundary do agregado** pequeno e com **invariantes claras**.
 - [ ] **Domínio rico**: operações do negócio como métodos (evitar `set` aberto).
 
 
